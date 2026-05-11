@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Expense List";
+}
+
+<div class="text-center">
+    <h1>Hello User</h1></>
+    <p>Here are the expenses for the current month:</p>
+</div>
+<div class="text-center">
+    <ul type="none">
+    @foreach (var expense in Model){
+        <li class="expenseItem">@expense.Title - @expense.Amount &euro; - @expense.Date</li>
+    }
+    </ul>
+</div>

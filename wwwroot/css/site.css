@@ -15,10 +15,16 @@ html {
 html {
   position: relative;
   min-height: 100%;
+  background-color: darkgrey;
+}
+
+div {
+  background-color: darkgrey;
 }
 
 body {
   margin-bottom: 60px;
+  background-color: darkgrey;
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -28,4 +34,13 @@ body {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
+}
+
+.expenseItem {
+  border: 3px solid rgb(16, 92, 13);
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 25px;
 }
