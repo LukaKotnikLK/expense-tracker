@@ -9,7 +9,7 @@
 <div class="text-center">
     <ul type="none">
     @foreach (var expense in Model){
-        <li class="expenseItem">@expense.Title - @expense.Amount &euro; - @expense.Date</li>
+        <li class="expenseItem">@expense.Title - @expense.Amount &euro; - @expense.Date.ToString("dd/MM/yyyy")</li>
     }
     </ul>
 </div>

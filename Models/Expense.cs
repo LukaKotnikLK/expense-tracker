@@ -8,6 +8,6 @@ namespace expense_tracker.Models
 
         public required decimal Amount { get; set; }
 
-        public required string Date { get; set;}
+        public DateTime Date { get; set;}
     }
 }

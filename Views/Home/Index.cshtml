@@ -13,3 +13,19 @@
     <p>Amount: @Model.Amount &euro;</p>
     <p>Date: @Model.Date</p>
 </div>
+
+<div class="text-center">
+    <form method="post" action="/Home/Post">
+        <div>
+        <label for="Title">Name of Expense</label>
+        <input type="text" id="Title" name="Title" required>
+        </div>
+        <br>
+        <div
+        <label for="Amount">Cost of Expense</label>
+        <input type="text" id="Amount" name="Amount" required>
+        </div>
+        <br>
+        <button type="submit">Add Expense</button>
+    </form>
+</div>
